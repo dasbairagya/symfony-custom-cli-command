@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+ 
+use App\Command\QuoteCommand;
+use Console\App\Services\Quote;
+use Console\App\Commands\TestCommand;
+use Symfony\Component\Console\Application;
+use Console\App\Commands\Cache\ClearCommand;
+use Console\App\Commands\Message\LogCommand;
+use Console\App\Commands\Message\PrintCommand;
+
+$app = new Application('Symfony Custom CLI', '1.0.0');
+$app->add(new PrintCommand());
+$app->add(new ClearCommand());
+$app->add(new LogCommand());
+$app->add(new QuoteCommand(new Quote()));
+$app->add(new TestCommand());
+$app->run();

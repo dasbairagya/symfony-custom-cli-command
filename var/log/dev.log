@@ -1,0 +1,3 @@
+[2023-04-23T12:50:27.552562+02:00] message.INFO: Logger command: Gopal [] []
+[2023-04-23T12:50:27.562710+02:00] message.INFO: Logging like a boss at D:\apps\php\symfony-cli\src\App\Commands\Message\LogCommand.php:32 [] []
+[2023-04-23T12:50:27.563699+02:00] message.ERROR: This is an Error {"Username":"Gopal"} []

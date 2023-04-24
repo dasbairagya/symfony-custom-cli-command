@@ -1,0 +1,12 @@
+### OOPS ###
+/docs/*
+/tests/reports/*
+
+### Composer ###
+/vendor/
+composer.lock
+
+
+
+
+
