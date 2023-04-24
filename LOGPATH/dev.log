@@ -1,6 +1,0 @@
-[2023-04-23T12:47:13.780268+02:00] message.INFO: Logger command: Gopal [] []
-[2023-04-23T12:47:13.808202+02:00] message.INFO: Logging like a boss at D:\apps\php\symfony-cli\src\App\Commands\Message\LogCommand.php:31 [] []
-[2023-04-23T12:47:13.809054+02:00] message.ERROR: This is an Error {"Username":"Gopal"} []
-[2023-04-23T12:49:04.149056+02:00] message.INFO: Logger command: Gopal [] []
-[2023-04-23T12:49:04.160021+02:00] message.INFO: Logging like a boss at D:\apps\php\symfony-cli\src\App\Commands\Message\LogCommand.php:32 [] []
-[2023-04-23T12:49:04.160638+02:00] message.ERROR: This is an Error {"Username":"Gopal"} []
